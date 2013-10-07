@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <style type="text/css">
-#link {
+#link { 
 	width: 200px;
 	height: 50px;
 	background-color: #999999;
