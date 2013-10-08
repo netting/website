@@ -21,7 +21,7 @@ $(document).ready(function() {
     //console.log(this.href);
     //e.stopPropagation(); // Prevent bubbling
   });
-});
+}); 
 </script>
 </head>
 
