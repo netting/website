@@ -28,4 +28,4 @@ $(document).ready(function() {
 <body>
 <div id="link"><a href="#test1">this</a> is a <a href="#test2">link</a></div>
 </body>
-</html>
+</html> 
