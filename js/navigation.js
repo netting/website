@@ -19,13 +19,15 @@
 
       $(document).on('click', '*[href*="#"]', function() {
         var slashedHash = '#/' + this.hash.slice(1);
+		//alert(slashedHash);
 		
-		if(slashedHash == "#/link1"){
+		if(slashedHash == "#/link1" ){
 			//$("#footer").hide();
 			//$("#footer").fadeOut();
 			//$("#footer").fadeOut("fast");
 			$("#footer").slideUp();			
-		}else{
+		}
+		if(slashedHash != "#/link1" && slashedHash != "#/"){
 			//$("#footer").show();
 			//$("#footer").fadeIn();
 			//$("#footer").fadeIn("fast");
